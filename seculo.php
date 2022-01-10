@@ -5,9 +5,8 @@
         if ($ano % 100 > 0){
             $seculo = (int)$seculo + 1;
         }
-        echo $seculo;
+        echo 'Ano ' . $ano . " = século " . $seculo;
     }
      
-
-    //Passe o ano aqui na função
-    SeculoAno(2002);
+    
+    SeculoAno(1700);
